@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_hint_loading">Loading…</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_comfirm">Confirm</string>
+    <string name="widget_empty_system_busy">System busy. Try again later.</string>
+    <string name="widget_empty_click_text">Click to refresh.</string>
+    <string name="widget_empty_no_right">Insufficient permission. View other content.</string>
+    <string name="widget_empty_error_404">The resource you requested cannot be found.</string>
+    <string name="widget_empty_no_network">No network connection.</string>
+    <string name="widget_empty_is_building">This module is building.</string>
+    <string name="widget_empty_is_no_right_on_mobile">Please view the file on a PC.</string>
+
+</resources>

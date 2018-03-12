@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- base dialog -->
+    <style name="widget_dialog_baseDialog" parent="@android:style/Theme.Dialog">
+        <!-- 对话框的内容窗口背景色:让整个对话框的背景为透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否有覆盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- dialog的整个屏幕的背景是否有遮障层-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 整个屏幕背景是透明的 -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- progress dialog -->
+		<!-- 对话框黑色遮罩，如果有需求要去掉请加入这个属性<item name="android:backgroundDimEnabled">false</item> -->
+
+
+    <style name="Wetoast_Animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/top_in</item>
+        <item name="android:windowExitAnimation">@anim/top_out</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dialog_text_x333333">#333333</color>
+    <color name="dialog_text_x039be5">#039be5</color>
+
+    <color name="widget_black">#000000</color>
+    <color name="separator_line">#cccccc</color>
+
+    <color name="nav_text_xf0f0f0">#f0f0f0</color>
+    <color name="nav_text_xa8a8a8">#a8a8a8</color>
+
+    <color name="button_text_xf04b3d">#f04b3d</color>
+    <color name="loading_view_text_x999999">#999999</color>
+
+    <color name="prompt_warning_bg">#191919</color>
+    <color name="prompt_normal_bg">#191919</color>
+    <color name="image_picker_dialog_i_know">#039BE5</color>
+
+</resources>

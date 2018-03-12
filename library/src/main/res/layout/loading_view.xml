@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:minWidth="82dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_loading_img_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_loading_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/iv_loading_img"
+            android:layout_alignRight="@id/iv_loading_img"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#F04B3D"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/progress"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:text="%"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/widget_hint_loading"
+        android:textColor="@color/loading_view_text_x999999"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

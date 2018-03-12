@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="Toast" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvEmptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="无数据" />
+
+    <TextView
+        android:id="@+id/tvLoadingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmptyView"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="无网络" />
+
+    <com.xdroid.library.widget.XLoadingView
+        android:id="@+id/loadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <com.xdroid.library.widget.XEmptyView
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
